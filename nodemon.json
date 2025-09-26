@@ -1,0 +1,16 @@
+{
+  "watch": [
+    "*.js",
+    "config.js",
+    ".env"
+  ],
+  "ignore": [
+    "node_modules/",
+    "logs/",
+    "*.log",
+    "event-mappings.json",
+    "test-*.js"
+  ],
+  "ext": "js,json",
+  "delay": 1000
+}

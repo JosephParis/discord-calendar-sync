@@ -1,0 +1,43 @@
+{
+  "name": "discord-calendar-sync",
+  "version": "1.0.0",
+  "description": "A Discord bot that syncs Google Calendar events to Discord scheduled events",
+  "main": "discord-calendar.js",
+  "scripts": {
+    "start": "node discord-calendar.js",
+    "dev": "nodemon discord-calendar.js",
+    "health": "node health.js",
+    "docker:run": "docker-compose up -d",
+    "docker:stop": "docker-compose down"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "google-calendar",
+    "sync",
+    "scheduled-events",
+    "automation"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.6.1",
+    "googleapis": "^128.0.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/discord-calendar-sync.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/discord-calendar-sync/issues"
+  },
+  "homepage": "https://github.com/yourusername/discord-calendar-sync#readme"
+}
